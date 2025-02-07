@@ -1,0 +1,78 @@
+.simulation-status {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f7f6;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  h3 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  fieldset {
+    border: 2px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  legend {
+    font-weight: bold;
+  }
+  
+  .inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .status-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .loading {
+    font-weight: bold;
+    color: #f39c12;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #bdc3c7;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
